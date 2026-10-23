@@ -160,6 +160,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#f44336]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Area",
+  },
+  {
+    id: "Gomoku",
+    title: "Gomoku",
+    category: "software",
+    type: { fr: "Expérimental", en: "Experimental" },
+    description: {
+      fr: "Création d'une IA jouant au gomoku avec un algorithme de recherche minimax",
+      en: "Creation of an AI that plays Gomoku using a minimax search algorithm.",
+    },
+    tags: ["C++", "Makefile"],
+    color: "bg-[#e91e63]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Gomoku",
   }
 ];
 
