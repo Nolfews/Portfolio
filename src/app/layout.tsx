@@ -9,8 +9,11 @@ const displayFont = Syne({ subsets: ["latin"], variable: "--font-display" });
 const bodyFont = Space_Grotesk({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Developpeur creatif",
-  description: "Portfolio personnel de developpeur creatif",
+  title: "Portfolio | Nolan PAPA",
+  description: "Portfolio personnel de Nolan PAPA, developpeur web,jeux video & logiciel.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
