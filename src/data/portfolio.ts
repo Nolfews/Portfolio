@@ -104,6 +104,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#4caf50]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Arcade",
+  },
+  {
+    id: "Raytracer",
+    title: "Raytracer",
+    category: "software",
+    type: { fr: "Expérimental", en: "Experimental" },
+    description: {
+      fr: "Simulation du comportement de la lumière dans des environnements 3D en utilisant des techniques de lancer de rayons pour produire des images physiquement réalistes.",
+      en: "Simulate the behavior of light in 3D environments using ray tracing techniques to produce physically realistic images.",
+    },
+    tags: ["C++", "CMake"],
+    color: "bg-[#ff9800]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Raytracer",
   }
 ];
 
