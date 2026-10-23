@@ -174,6 +174,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#e91e63]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Gomoku",
+  },
+  {
+    id: "Cryptography",
+    title: "Cryptography",
+    category: "software",
+    type: { fr: "Expérimental", en: "Experimental" },
+    description: {
+      fr: "Création d'une bibliothèque de cryptographie avec des algorithmes de chiffrement et de hachage.",
+      en: "Creation of a cryptography library with encryption and hashing algorithms.",
+    },
+    tags: ["Python"],
+    color: "bg-[#3f51b5]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Cryptography",
   }
 ];
 
