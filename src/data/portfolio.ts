@@ -229,7 +229,21 @@ export const projectCatalog: PortfolioProject[] = [
     tags: ["Haskell", "Makefile"],
     color: "bg-[#607d8b]",
     year: "2025",
-    repositoryUrl: "https://github.com/Nolfews/Compressor".
+    repositoryUrl: "https://github.com/Nolfews/Compressor",
+  },
+  {
+    id: "EPiAirConsole",
+    title: "EPiAirConsole",
+    category: "games",
+    type: { fr: "Jeu vidéo", en: "Video game" },
+    description: {
+      fr: "Création d'un jeu multijoueur en ligne en web pour l'écran et téléphone pour la manette.",
+      en: "Creation of an online multiplayer game for web for the screen and phone for the controller.",
+    },
+    tags: ["JavaScript", "Typescript", "HTML5", "SCSS", "Node.js"],
+    color: "bg-[#ffeb3b]",
+    year: "2026",
+    repositoryUrl: "https://github.com/Nolfews/EpiAirConsole",
   }
 ];
 
