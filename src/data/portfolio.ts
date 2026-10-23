@@ -146,6 +146,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#9e9e9e]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/MiniLibC",
+  },
+  {
+    id: "Area",
+    title: "Area",
+    category: "web",
+    type: { fr: "site web", en: "Web site" },
+    description: {
+      fr: "Un site web pour la création d'automatisation par Oauth.",
+      en: "A web site for creating automation with Oauth.",
+    },
+    tags: ["Python", "Django", "Typescript", "React", "TailwindCSS", "Flutter"],
+    color: "bg-[#f44336]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Area",
   }
 ];
 
