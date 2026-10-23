@@ -202,6 +202,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#ff5722]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/My_Torch",
+  },
+  {
+    id: "R-Type",
+    title: "R-Type",
+    category: "games",
+    type: { fr: "Jeu vidéo", en: "Video game" },
+    description: {
+      fr: "Recréation du jeu R-Type avec un accent sur le multijoueur et la compétition.",
+      en: "Recreation of the game R-Type with a focus on multiplayer and competition.",
+    },
+    tags: ["C++", "CMake"],
+    color: "bg-[#00bcd4]",
+    year: "2026",
+    repositoryUrl: "https://github.com/Nolfews/R-Type",
   }
 ];
 
