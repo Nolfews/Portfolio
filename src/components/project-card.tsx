@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useSitePreferences } from "@/components/site-preferences";
 import type { PortfolioProject } from "@/data/portfolio";
 
@@ -12,8 +13,17 @@ export function ProjectCard({ project }: { project: PortfolioProject }) {
 
   return (
     <article className="group overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-transform duration-200 hover:-translate-y-1">
-      <div className={`flex h-52 items-end p-5 ${project.color}`}>
-        <span className="rounded-full bg-[var(--paper)]/85 px-3 py-1 text-xs font-bold uppercase tracking-wider">
+      <div className={`relative flex h-52 items-end overflow-hidden p-5 ${project.color}`}>
+        {project.image && (
+          <Image
+            src={project.image}
+            alt={`${project.title} preview`}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        )}
+        <span className="relative z-10 rounded-full bg-[var(--paper)]/85 px-3 py-1 text-xs font-bold uppercase tracking-wider">
           {copy.preview}
         </span>
       </div>
