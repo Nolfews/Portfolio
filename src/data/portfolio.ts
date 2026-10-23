@@ -159,6 +159,7 @@ export const projectCatalog: PortfolioProject[] = [
     },
     tags: ["Python", "Django", "Typescript", "React", "TailwindCSS", "Flutter"],
     color: "bg-[#f44336]",
+    image: "/projects/Area_Preview.png",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Area",
   },
