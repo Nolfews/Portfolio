@@ -5,7 +5,7 @@ export type LocalizedText = {
   en: string;
 };
 
-export type ProjectCategory = "web" | "game" | "software" | "technical";
+export type ProjectCategory = "web" | "games" | "software";
 
 export type PortfolioProject = {
   id: string;
@@ -275,4 +275,6 @@ export const projectCatalog: PortfolioProject[] = [
   }
 ];
 
-export const featuredProjects = projectCatalog.slice(0, 2);
+export const featuredProjects = [...projectCatalog]
+  .sort((firstProject, secondProject) => Number(secondProject.year) - Number(firstProject.year))
+  .slice(0, 2);
