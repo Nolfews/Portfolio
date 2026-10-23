@@ -234,8 +234,8 @@ export const projectCatalog: PortfolioProject[] = [
   {
     id: "EPiAirConsole",
     title: "EPiAirConsole",
-    category: "games",
-    type: { fr: "Jeu vidéo", en: "Video game" },
+    category: "web",
+    type: { fr: "site web", en: "Web site" },
     description: {
       fr: "Création d'un jeu multijoueur en ligne en web pour l'écran et téléphone pour la manette.",
       en: "Creation of an online multiplayer game for web for the screen and phone for the controller.",
