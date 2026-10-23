@@ -44,7 +44,7 @@ export function SiteHeader() {
           <button type="button" onClick={() => setLanguage(language === "fr" ? "en" : "fr")} aria-label={copy.language} title={copy.language} className="language-button">
             <Languages size={15} /> {language.toUpperCase()}
           </button>
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="header-button">
+          <a href="https://github.com/Nolfews" target="_blank" rel="noreferrer" className="header-button">
             {copy.github}
           </a>
         </div>
