@@ -244,6 +244,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#ffeb3b]",
     year: "2026",
     repositoryUrl: "https://github.com/Nolfews/EpiAirConsole",
+  },
+  {
+    id: "Gems-Shift",
+    title: "Gems-Shift",
+    category: "games",
+    type: { fr: "Jeu vidéo", en: "Video game" },
+    description: {
+      fr: "Création d'un jeu d'aventure solo, métroid vania et platformer",
+      en: "Creation of an adventure solo game, metroidvania and platformer",
+    },
+    tags: ["Unreal Engine", "Blueprints"],
+    color: "bg-[#4caf50]",
+    year: "2026",
+    repositoryUrl: "https://github.com/Nolfews/Gems-Shift",
   }
 ];
 
