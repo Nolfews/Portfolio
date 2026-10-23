@@ -15,6 +15,7 @@ export type PortfolioProject = {
   description: LocalizedText;
   tags: string[];
   color: string;
+  image?: string;
   year: string;
   repositoryUrl: string;
   demoUrl?: string;
@@ -214,6 +215,7 @@ export const projectCatalog: PortfolioProject[] = [
     },
     tags: ["C++", "CMake"],
     color: "bg-[#00bcd4]",
+    image: "/projects/R-Type_Preview.png",
     year: "2026",
     repositoryUrl: "https://github.com/Nolfews/R-Type",
   },
