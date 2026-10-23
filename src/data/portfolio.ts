@@ -132,6 +132,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#e91e63]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Zappy",
+  },
+  {
+    id: "MiniLibC",
+    title: "MiniLibC",
+    category: "software",
+    type: { fr: "Bibliothèque", en: "Library" },
+    description: {
+      fr: "Une implémentation minimale de la bibliothèque standard C.",
+      en: "A minimal implementation of the standard C library.",
+    },
+    tags: ["Assembly", "Makefile"],
+    color: "bg-[#9e9e9e]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/MiniLibC",
   }
 ];
 
