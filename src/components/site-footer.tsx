@@ -17,7 +17,12 @@ export function SiteFooter() {
           <Link href="/cv" className="hover:text-[var(--ink)]">
             CV
           </Link>
-          <a href="mailto:nolan.papa93@gmail.com" className="hover:text-[var(--ink)]">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nolan.papa93@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-[var(--ink)]"
+          >
             {copy.contact}
           </a>
         </div>
