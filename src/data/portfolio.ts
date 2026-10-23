@@ -142,7 +142,7 @@ export const projectCatalog: PortfolioProject[] = [
       fr: "Une implémentation minimale de la bibliothèque standard C.",
       en: "A minimal implementation of the standard C library.",
     },
-    tags: ["Assembly", "Makefile"],
+    tags: ["Assembly", "C", "Makefile"],
     color: "bg-[#9e9e9e]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/MiniLibC",
