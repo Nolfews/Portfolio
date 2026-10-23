@@ -258,6 +258,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#4caf50]",
     year: "2026",
     repositoryUrl: "https://github.com/Nolfews/Gems-Shift",
+  },
+  {
+    id: "Sparring-Protocol",
+    title: "Sparring-Protocol",
+    category: "games",
+    type: { fr: "Jeu vidéo", en: "Video game" },
+    description: {
+      fr: "Création d'un jeu de combats FPS entre joueurs et IA",
+      en: "Creation of a FPS fighting game between players and AI",
+    },
+    tags: ["Unreal Engine", "C++", "Blueprints"],
+    color: "bg-[#9c27b0]",
+    year: "2026",
+    repositoryUrl: "https://github.com/Nolfews/Sparring-Protocol",
   }
 ];
 
