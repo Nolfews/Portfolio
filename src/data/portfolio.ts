@@ -260,6 +260,7 @@ export const projectCatalog: PortfolioProject[] = [
     },
     tags: ["Unreal Engine", "Blueprints"],
     color: "bg-[#4caf50]",
+    image: "/projects/Gems-Shift_Preview.png",
     year: "2026",
     repositoryUrl: "https://github.com/Nolfews/Gems-Shift",
   },
