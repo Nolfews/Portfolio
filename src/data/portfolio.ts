@@ -22,18 +22,18 @@ export type PortfolioProject = {
 
 export const projectCatalog: PortfolioProject[] = [
   {
-    id: "project-atlas",
-    title: "Project Atlas",
-    category: "web",
-    type: { fr: "Application web", en: "Web application" },
+    id: "My_RPG",
+    title: "MY_RPG",
+    category: "game",
+    type: { fr: "Jeu video", en: "Video game" },
     description: {
-      fr: "Un espace de travail clair pour transformer des idees en projets concrets.",
-      en: "A clear workspace for turning ideas into concrete projects.",
+      fr: "Un RPG inspiré de The Legend of Zelda avec un accent sur l'exploration et la narration.",
+      en: "A RPG inspired by The Legend of Zelda with a focus on exploration and storytelling.",
     },
-    tags: ["Next.js", "TypeScript", "PostgreSQL"],
+    tags: ["C", "SFML"],
     color: "bg-[var(--accent)]",
-    year: "2025",
-    repositoryUrl: "https://github.com/",
+    year: "2024",
+    repositoryUrl: "https://github.com/Nolfews/My_RPG",
   },
   {
     id: "signal-studio",
