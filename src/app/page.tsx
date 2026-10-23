@@ -66,7 +66,7 @@ export default function Home() {
                 {copy.projectsButton} <ArrowUpRight size={16} />
               </Link>
               <a
-                href="https://github.com/"
+                href="https://github.com/Nolfews"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -106,7 +106,7 @@ export default function Home() {
             </h2>
           </div>
           <Link
-            href="mailto:hello@example.com"
+            href="mailto:nolan.papa93@gmail.com"
             className="inline-flex items-center gap-2 text-sm font-bold text-[var(--next-accent)] transition-transform hover:translate-x-1"
           >
             {copy.contact} <Play size={14} fill="currentColor" />
