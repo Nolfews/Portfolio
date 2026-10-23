@@ -79,8 +79,8 @@ export default function ProjectsPage() {
         </h1>
         <p className="max-w-xs text-sm leading-6 text-[var(--muted)]">
           {isFrench
-            ? "Une selection de projets web, outils et prototypes qui racontent ma maniere de construire."
-            : "A selection of web projects, tools and prototypes that show how I build."}
+            ? "Une selection de projets, outils et prototypes qui racontent ma maniere de construire."
+            : "A selection of projects, tools and prototypes that show how I build."}
         </p>
       </div>
       <div
