@@ -105,12 +105,14 @@ export default function Home() {
               {copy.contactTitle}
             </h2>
           </div>
-          <Link
-            href="mailto:nolan.papa93@gmail.com"
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nolan.papa93@gmail.com"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 text-sm font-bold text-[var(--next-accent)] transition-transform hover:translate-x-1"
           >
             {copy.contact} <Play size={14} fill="currentColor" />
-          </Link>
+          </a>
         </div>
       </section>
     </div>
