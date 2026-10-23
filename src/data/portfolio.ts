@@ -117,6 +117,7 @@ export const projectCatalog: PortfolioProject[] = [
     },
     tags: ["C++", "CMake"],
     color: "bg-[#ff9800]",
+    image: "/projects/Raytracer_Preview.png",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Raytracer",
   },
