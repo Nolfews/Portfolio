@@ -24,13 +24,13 @@ export const projectCatalog: PortfolioProject[] = [
   {
     id: "My_RPG",
     title: "MY_RPG",
-    category: "game",
+    category: "games",
     type: { fr: "Jeu video", en: "Video game" },
     description: {
       fr: "Un RPG inspiré de The Legend of Zelda avec un accent sur l'exploration et la narration.",
       en: "A RPG inspired by The Legend of Zelda with a focus on exploration and storytelling.",
     },
-    tags: ["C", "SFML", "Makefile"],
+    tags: ["C", "Makefile"],
     color: "bg-[var(--accent)]",
     year: "2024",
     repositoryUrl: "https://github.com/Nolfews/My_RPG",
@@ -90,6 +90,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#2196f3]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/NanoTekSpice",
+  },
+  {
+    id: "Arcade",
+    title: "Arcade",
+    category: "games",
+    type: { fr: "Jeu vidéo", en: "Video game" },
+    description: {
+      fr: "Une borne d'arcade virtuelle avec changement dynamique de lib graphique",
+      en: "A virtual arcade machine with dynamic graphics library switching",
+    },
+    tags: ["C++", "CMake"],
+    color: "bg-[#4caf50]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Arcade",
   }
 ];
 
