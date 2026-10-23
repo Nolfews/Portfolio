@@ -245,6 +245,7 @@ export const projectCatalog: PortfolioProject[] = [
     },
     tags: ["JavaScript", "Typescript", "HTML5", "SCSS", "Node.js"],
     color: "bg-[#ffeb3b]",
+    image: "/projects/EPiAirConsole_Preview.png",
     year: "2026",
     repositoryUrl: "https://github.com/Nolfews/EpiAirConsole",
   },
