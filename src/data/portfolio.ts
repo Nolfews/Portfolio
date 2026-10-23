@@ -118,6 +118,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#ff9800]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Raytracer",
+  },
+  {
+    id: "Zappy",
+    title: "Zappy",
+    category: "games",
+    type: { fr: "Jeu vidéo", en: "Video game" },
+    description: {
+      fr: "Un jeu de stratégie en réseau passionnant où plusieurs équipes s'affrontent sur une carte en tuiles remplie de ressources.",
+      en: "an exciting network-based strategy game where multiple teams compete on a tile-based map filled with resources.",
+    },
+    tags: ["C++", "C", "Python", "Makefile"],
+    color: "bg-[#e91e63]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Zappy",
   }
 ];
 
