@@ -216,6 +216,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#00bcd4]",
     year: "2026",
     repositoryUrl: "https://github.com/Nolfews/R-Type",
+  },
+  {
+    id: "Compressor",
+    title: "Compressor",
+    category: "software",
+    type: { fr: "Expérimental", en: "Experimental" },
+    description: {
+      fr: "Création d'un algorithme de compression de données avec un accent sur la vitesse et l'efficacité.",
+      en: "Creation of a data compression algorithm with a focus on speed and efficiency.",
+    },
+    tags: ["Haskell", "Makefile"],
+    color: "bg-[#607d8b]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/Compressor".
   }
 ];
 
