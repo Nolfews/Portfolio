@@ -188,6 +188,20 @@ export const projectCatalog: PortfolioProject[] = [
     color: "bg-[#3f51b5]",
     year: "2025",
     repositoryUrl: "https://github.com/Nolfews/Cryptography",
+  },
+  {
+    id: "My_Torch",
+    title: "My_Torch",
+    category: "software",
+    type: { fr: "Expérimental", en: "Experimental" },
+    description: {
+      fr: "Création d'une bibliothèque de machine learning avec des algorithmes d'apprentissage supervisé et non supervisé, jouant au échecs.",
+      en: "Creation of a machine learning library with supervised and unsupervised learning algorithms, playing chess.",
+    },
+    tags: ["Python"],
+    color: "bg-[#ff5722]",
+    year: "2025",
+    repositoryUrl: "https://github.com/Nolfews/My_Torch",
   }
 ];
 
