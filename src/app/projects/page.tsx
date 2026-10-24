@@ -74,7 +74,7 @@ export default function ProjectsPage() {
       <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
         <h1 className="display mt-5 max-w-2xl text-6xl font-bold leading-none">
           {isFrench
-            ? "Des idees devenues experiences."
+            ? "Des idées devenues experiences."
             : "Ideas turned into experiences."}
         </h1>
         <p className="max-w-xs text-sm leading-6 text-[var(--muted)]">
