@@ -11,7 +11,7 @@ export default function Home() {
   const isFrench = language === "fr";
   const copy = isFrench
     ? {
-        eyebrow: "Developpeur web & jeux vidéos et logiciels",
+        eyebrow: "Développeur web & jeux vidéo et logiciels",
         title: (
           <>
             J&apos;imagine, je développe et je transforme des{" "}
@@ -19,14 +19,14 @@ export default function Home() {
             concrets.
           </>
         ),
-        intro: "Chaque projet raconte quelque chose. Voici les miens.",
-        projectsButton: "Decouvrir mes projets",
-        selection: "Selection",
+        intro: "Chaque création a son histoire. Voici celles que j'ai écrites.",
+        projectsButton: "Découvrir mes projets",
+        selection: "Sélection",
         making: "Mes projets marquants",
         allProjects: "Tous les projets",
         next: "Le prochain chapitre",
         contactTitle: "Un projet en tête ? Parlons-en.",
-        contact: "Ecrire un message",
+        contact: "Écrire un message",
       }
     : {
         eyebrow: "Web developer & creator of video games and software",
@@ -37,7 +37,7 @@ export default function Home() {
             projects.
           </>
         ),
-        intro: "Every project tells a story. Here are mine.",
+        intro: "Every creation has a story. Here are the ones I've written.",
         projectsButton: "Explore my projects",
         selection: "Selection",
         making: "My featured projects",

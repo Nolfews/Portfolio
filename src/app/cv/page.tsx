@@ -21,25 +21,25 @@ export default function CvPage() {
         label: "Curriculum vitae",
         title: "Mon parcours.",
         view: "Consulter",
-        download: "Telecharger",
-        french: "CV francais",
+        download: "Télécharger",
+        french: "CV français",
         english: "CV anglais",
         contact: "Contact",
-        skills: "Competences",
+        skills: "Compétences",
         languages: "Langages",
-        experience: "Experiences",
+        experience: "Expériences",
         educationLabel: "Cursus scolaire",
-        profile: "Passionné d'informatique, je suis etudiant en 4e annee a Epitech Nantes. En plus de vouloir developper mes connaissances, je me fixe comme objectif professionnel de faire avancer l'informatique. Mes centres d'interets sont les jeux video, la cuisine et le karaté.",
-        languageList: ["Anglais - C1", "Francais - Natif", "Espagnol - Scolaire"],
-        skillList: ["Maitrise d'outils (VS Code, GitHub)", "Developpement web et mobile", "Developpement oriente objet", "Capacite d'apprentissage rapide", "Travail en equipe", "Adaptabilite", "Sens de la qualite"],
+        profile: "Passionné d'informatique, je suis étudiant en 4e année à Epitech Nantes. En plus de vouloir développer mes connaissances, je me fixe comme objectif professionnel de faire avancer l'informatique. Mes centres d'intérêt sont les jeux vidéo, la cuisine et le karaté.",
+        languageList: ["Anglais - C1", "Français - Natif", "Espagnol - Scolaire"],
+        skillList: ["Maîtrise d'outils (VS Code, GitHub)", "Développement web et mobile", "Développement orienté objet", "Capacité d'apprentissage rapide", "Travail en équipe", "Adaptabilité", "Sens de la qualité"],
         experiences: [
-          { title: "Projets etudiants", description: "Participation a divers projets realises en groupe dans le cadre de ma formation : algorithmique, developpement web, creation de jeux video et automatisation." },
-          { title: "Stage - Developpeur chez Alphalink", date: "Oct. - Dec. 2024", description: "Stage de 3 mois au sein d'Alphalink axe sur la creation d'une IHM destinee a faciliter l'acces aux donnees internes. Conception, developpement et optimisation de l'interface en collaboration avec l'equipe technique." },
-          { title: "Stage - Developpeur chez Aptatio", date: "Avril - Aout 2026", description: "Stage de 4 mois au sein d'Aptatio : mise en oeuvre de projets concrets, de la conception jusqu'a la realisation et la production, en collaboration avec les clients. Projets web, embarques et simulation VR en equipe." },
+          { title: "Projets étudiants", description: "Participation à divers projets réalisés en groupe dans le cadre de ma formation : algorithmique, développement web, création de jeux vidéo et automatisation." },
+          { title: "Stage - Développeur chez Alphalink", date: "Oct. - Déc. 2024", description: "Stage de 3 mois au sein d'Alphalink axé sur la création d'une IHM destinée à faciliter l'accès aux données internes. Conception, développement et optimisation de l'interface en collaboration avec l'équipe technique." },
+          { title: "Stage - Développeur chez Aptatio", date: "Avril - Août 2026", description: "Stage de 4 mois au sein d'Aptatio : mise en œuvre de projets concrets, de la conception jusqu'à la réalisation et la production, en collaboration avec les clients. Projets web, embarqués et simulation VR en équipe." },
         ],
         education: [
-          { title: "Epitech Nantes - Promos 2023 - 2028", description: "Diplome d'expert en technologie\nTitre d'Expert en Ingenierie Logicielle" },
-          { title: "Bac Maths - NSI 2021", description: "Perfectionnement de notions scientifiques generales" },
+          { title: "Epitech Nantes - Promos 2023 - 2028", description: "Diplôme d'expert en technologie\nTitre d'Expert en Ingénierie Logicielle" },
+          { title: "Bac Maths - NSI 2021", description: "Perfectionnement de notions scientifiques générales" },
         ],
       }
     : {
@@ -107,8 +107,8 @@ export default function CvPage() {
             <div className="mt-4 space-y-2 text-lg font-semibold">
               <a href="tel:+33619825236" className="block transition-colors hover:text-[var(--accent)]">+33 6 19 82 52 36</a>
               <a href="mailto:nolan.papa93@gmail.com" className="block transition-colors hover:text-[var(--accent)]">nolan.papa93@gmail.com</a>
-              <p>Nantes Metropole (44)</p>
-              <p>Permis B vehicule</p>
+              <p>Nantes Métropole (44)</p>
+              <p>Permis B, véhicule</p>
               <a href="https://github.com/Nolfews" target="_blank" rel="noreferrer" className="block transition-colors hover:text-[var(--accent)]">github.com/Nolfews</a>
             </div>
           </section>

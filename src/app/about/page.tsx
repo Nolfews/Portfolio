@@ -7,7 +7,7 @@ export default function AboutPage() {
   const isFrench = language === "fr";
   const copy = isFrench
     ? {
-        label: "A propos de moi",
+        label: "À propos de moi",
         title: "Créer avec imagination. Avancer avec détermination.",
         paragraphs: [
           "Je suis un développeur en formation, passionné par la création sous toutes ses formes. Ce qui me plaît dans le développement, c'est la liberté de partir d'une idée et de lui donner vie, qu'il s'agisse d'un site web, d'un logiciel ou d'un jeu vidéo. J'aime autant imaginer des expériences que comprendre les mécanismes techniques qui les rendent possibles.",

@@ -10,7 +10,7 @@ const bodyFont = Space_Grotesk({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
   title: "Portfolio | Nolan PAPA",
-  description: "Portfolio personnel de Nolan PAPA, developpeur web,jeux video & logiciel.",
+  description: "Portfolio personnel de Nolan PAPA, développeur web, jeux vidéo & logiciel.",
   icons: {
     icon: "/favicon.png",
   },

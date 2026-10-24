@@ -58,7 +58,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "software",
     type: { fr: "Expérimental", en: "Experimental" },
     description: {
-      fr: "Une récration de pandoc en haskell.",
+      fr: "Une recréation de Pandoc en Haskell.",
       en: "A recreation of pandoc in Haskell.",
     },
     tags: ["Haskell", "Makefile"],
@@ -88,7 +88,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "games",
     type: { fr: "Jeu vidéo", en: "Video game" },
     description: {
-      fr: "Une borne d'arcade virtuelle avec changement dynamique de lib graphique",
+      fr: "Une borne d'arcade virtuelle avec changement dynamique de bibliothèque graphique.",
       en: "A virtual arcade machine with dynamic graphics library switching",
     },
     tags: ["C++", "CMake"],
@@ -133,7 +133,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "web",
     type: { fr: "site web", en: "Web site" },
     description: {
-      fr: "Un site web pour la création d'automatisation par Oauth.",
+      fr: "Un site web pour la création d'automatisations par OAuth.",
       en: "A web site for creating automation with Oauth.",
     },
     tags: ["Python", "Django", "Typescript", "React", "TailwindCSS", "Flutter"],
@@ -148,7 +148,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "software",
     type: { fr: "Expérimental", en: "Experimental" },
     description: {
-      fr: "Création d'une IA jouant au gomoku avec un algorithme de recherche minimax",
+      fr: "Création d'une IA jouant au gomoku avec un algorithme de recherche minimax.",
       en: "Creation of an AI that plays Gomoku using a minimax search algorithm.",
     },
     tags: ["C++", "Makefile"],
@@ -163,7 +163,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "software",
     type: { fr: "Expérimental", en: "Experimental" },
     description: {
-      fr: "Création d'une bibliothèque de machine learning avec des algorithmes d'apprentissage supervisé et non supervisé, jouant au échecs.",
+      fr: "Création d'une bibliothèque de machine learning avec des algorithmes d'apprentissage supervisé et non supervisé, jouant aux échecs.",
       en: "Creation of a machine learning library with supervised and unsupervised learning algorithms, playing chess.",
     },
     tags: ["Python"],
@@ -208,7 +208,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "web",
     type: { fr: "site web", en: "Web site" },
     description: {
-      fr: "Création d'un jeu multijoueur en ligne en web pour l'écran et téléphone pour la manette.",
+      fr: "Création d'un jeu multijoueur en ligne sur le web pour l'écran, avec un téléphone comme manette.",
       en: "Creation of an online multiplayer game for web for the screen and phone for the controller.",
     },
     tags: ["JavaScript", "Typescript", "HTML5", "SCSS", "Node.js"],
@@ -223,7 +223,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "games",
     type: { fr: "Jeu vidéo", en: "Video game" },
     description: {
-      fr: "Création d'un jeu d'aventure solo, métroid vania et platformer",
+      fr: "Création d'un jeu d'aventure solo, metroidvania et platformer.",
       en: "Creation of an adventure solo game, metroidvania and platformer",
     },
     tags: ["Unreal Engine", "Blueprints"],
@@ -238,7 +238,7 @@ export const projectCatalog: PortfolioProject[] = [
     category: "games",
     type: { fr: "Jeu vidéo", en: "Video game" },
     description: {
-      fr: "Création d'un jeu de combats FPS entre joueurs et IA",
+      fr: "Création d'un jeu de combat FPS entre joueurs et IA.",
       en: "Creation of a FPS fighting game between players and AI",
     },
     tags: ["Unreal Engine", "C++", "Blueprints"],

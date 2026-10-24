@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { useSitePreferences } from "@/components/site-preferences";
 
 const translations = {
-  fr: { home: "Accueil", about: "A propos de moi", projects: "Projets", cv: "CV", github: "GitHub", theme: "Changer de theme", language: "Changer de langue" },
+  fr: { home: "Accueil", about: "À propos de moi", projects: "Projets", cv: "CV", github: "GitHub", theme: "Changer de thème", language: "Changer de langue" },
   en: { home: "Home", about: "About me", projects: "Projects", cv: "CV", github: "GitHub", theme: "Change theme", language: "Change language" },
 };
 
