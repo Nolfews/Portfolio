@@ -29,7 +29,7 @@ export default function CvPage() {
         languages: "Langages",
         experience: "Experiences",
         educationLabel: "Cursus scolaire",
-        profile: "Passionne d'informatique, je suis etudiant en 4e annee a Epitech Nantes. En plus de vouloir developper mes connaissances, je me fixe comme objectif professionnel de faire avancer l'informatique. Mes centres d'interets sont les jeux video, la cuisine et le karate.",
+        profile: "Passionné d'informatique, je suis etudiant en 4e annee a Epitech Nantes. En plus de vouloir developper mes connaissances, je me fixe comme objectif professionnel de faire avancer l'informatique. Mes centres d'interets sont les jeux video, la cuisine et le karaté.",
         languageList: ["Anglais - C1", "Francais - Natif", "Espagnol - Scolaire"],
         skillList: ["Maitrise d'outils (VS Code, GitHub)", "Developpement web et mobile", "Developpement oriente objet", "Capacite d'apprentissage rapide", "Travail en equipe", "Adaptabilite", "Sens de la qualite"],
         experiences: [
