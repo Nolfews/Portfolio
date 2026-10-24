@@ -26,7 +26,7 @@ export const projectCatalog: PortfolioProject[] = [
     id: "My_RPG",
     title: "MY_RPG",
     category: "games",
-    type: { fr: "Jeu video", en: "Video game" },
+    type: { fr: "Jeu vidéo", en: "Video game" },
     description: {
       fr: "Un RPG inspiré de The Legend of Zelda avec un accent sur l'exploration et la narration.",
       en: "A RPG inspired by The Legend of Zelda with a focus on exploration and storytelling.",
