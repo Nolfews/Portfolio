@@ -48,13 +48,13 @@ export default function Home() {
       };
   return (
     <div className="page-in">
-      <section className="grid-paper border-b border-[var(--border)] px-6 pb-24 pt-20 lg:px-8 lg:pb-32 lg:pt-28">
+      <section className="grid-paper border-b border-[var(--border)] px-6 pb-20 pt-20 lg:px-8 lg:pb-24 lg:pt-16">
         <div className="mx-auto max-w-6xl">
           <p className="eyebrow">{copy.eyebrow}</p>
           <h1 className="display mt-6 max-w-4xl text-6xl font-bold leading-[0.95] tracking-[-0.04em] sm:text-8xl">
             {copy.title}
           </h1>
-          <div className="mt-10 flex flex-col gap-6 sm:flex-row sm:items-center">
+          <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-center">
             <p className="max-w-md leading-7 text-[var(--muted)]">
               {copy.intro}
             </p>
