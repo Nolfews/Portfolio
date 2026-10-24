@@ -8,7 +8,7 @@ export function ProjectCard({ project }: { project: PortfolioProject }) {
   const { language } = useSitePreferences();
   const copy =
     language === "fr"
-      ? { preview: "Apercu projet", view: "Voir le depot" }
+      ? { preview: "Aperçu projet", view: "Voir le dépôt" }
       : { preview: "Project preview", view: "View repository" };
 
   return (
