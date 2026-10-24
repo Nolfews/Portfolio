@@ -8,7 +8,7 @@ import { projectCatalog, type ProjectCategory } from "@/data/portfolio";
 
 const categories: Array<{ id: ProjectCategory; fr: string; en: string }> = [
   { id: "web", fr: "Web", en: "Web" },
-  { id: "games", fr: "Jeu video", en: "Video game" },
+  { id: "games", fr: "Jeu vidéo", en: "Video game" },
   { id: "software", fr: "Logiciel", en: "Software" },
 ];
 
@@ -74,7 +74,7 @@ export default function ProjectsPage() {
       <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
         <h1 className="display mt-5 max-w-2xl text-6xl font-bold leading-none">
           {isFrench
-            ? "Des idées devenues experiences."
+            ? "Des idées devenues expériences."
             : "Ideas turned into experiences."}
         </h1>
         <p className="max-w-xs text-sm leading-6 text-[var(--muted)]">
