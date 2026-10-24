@@ -25,7 +25,7 @@ export default function Home() {
         making: "Mes projets marquants",
         allProjects: "Tous les projets",
         next: "Le prochain chapitre",
-        contactTitle: "Un projet en tete ? Parlons-en.",
+        contactTitle: "Un projet en tête ? Parlons-en.",
         contact: "Ecrire un message",
       }
     : {
